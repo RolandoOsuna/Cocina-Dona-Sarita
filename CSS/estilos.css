@@ -1,0 +1,37 @@
+body{
+    background-color: #f4f4f4;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text-texto{
+    color: #707070;
+}
+
+.cards{
+    /* position:absolute; */
+    padding: 10px 0 ;
+    /* border: yellowgreen solid; */
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+}
+.cards img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.next{
+    position: relative;
+    /* padding: 15px; */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+
