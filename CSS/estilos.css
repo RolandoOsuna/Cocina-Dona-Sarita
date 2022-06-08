@@ -1,5 +1,6 @@
-body{
-    background-color: #f4f4f4;
+.margen-boton-cards{
+    margin-top: .77rem;
+    margin-left: 0.1rem;
 }
 .header{
     justify-content: center;
@@ -11,20 +12,24 @@ body{
 }
 
 .cards{
-    /* position:absolute; */
+    width: 345px;
+    height: 120px;
     padding: 10px 0 ;
-    /* border: yellowgreen solid; */
     border-radius: 1.7rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
 }
 .cards img{
     position: relative;
     right: 1rem;
     z-index: 10;
 }
-.next{
+.cards span{
+    color: #70707000;
+}
+.boton-cards{
     position: relative;
-    /* padding: 15px; */
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -33,5 +38,187 @@ body{
     text-align:center;
     left: 1.3rem;
     z-index: 10;
+}
+.contenido-platillos span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos{
+    height: auto;
+}
+.cards2{
+    width: 345px;
+    height: 120px;
+    padding: 10px 0 ;
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
+}
+.cards2 img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.cards2 span{
+    color: #70707000;
+}
+.boton-cards2{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+.contenido-platillos2 span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos2{
+    height: auto;
+}
+.cards3{
+    width: 345px;
+    height: 120px;
+    padding: 10px 0 ;
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
+}
+.cards3 img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.cards3 span{
+    color: #70707000;
+}
+.boton-cards3{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+.contenido-platillos3 span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos3{
+    height: auto;
+}
+.cards4{
+    width: 345px;
+    height: 120px;
+    padding: 10px 0 ;
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
+}
+.cards4 img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.cards4 span{
+    color: #70707000;
+}
+.boton-cards4{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+.contenido-platillos4 span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos4{
+    height: auto;
+}
+.cards5{
+    width: 345px;
+    height: 120px;
+    padding: 10px 0 ;
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
+}
+.cards5 img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.cards5 span{
+    color: #70707000;
+}
+.boton-cards5{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+.contenido-platillos5 span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos5{
+    height: auto;
+}
+.cards6{
+    width: 345px;
+    height: 120px;
+    padding: 10px 0 ;
+    border-radius: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.267);
+    color: #000;
+    transition: .3s ease;
+}
+.cards6 img{
+    position: relative;
+    right: 1rem;
+    z-index: 10;
+}
+.cards6 span{
+    color: #70707000;
+}
+.boton-cards6{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #27a327;
+    color: #fff;
+    text-align:center;
+    left: 1.3rem;
+    z-index: 10;
+}
+.contenido-platillos6 span{
+    color: #707070;
+    transition: .3s ease;
+}
+.contenido-platillos6{
+    height: auto;
 }
 
