@@ -1,8 +1,39 @@
-.margen-boton-cards{
-    margin-top: .77rem;
-    margin-left: 0.1rem;
-}
 .header{
+    background-image: url(../MEDIA/header.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header img{
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.692));
+}
+
+.btn-amarillo{
+    background-color: #cca254;
+    color: #473b2e;
+}
+
+.bg-card1{
+    background-image: url(../MEDIA/Card-1.jpg);
+    background-size: cover;
+    background-position-y: 63%;
+    height: 265px;
+}
+.bg-card2{
+    background-image: url(../MEDIA/Card-2.jpg);
+    background-size: cover;
+    background-position-y: 41%;
+    height: 265px;
+
+}
+
+/* GLOBALES */
+.text-shadow{
+    text-shadow: 0px 2px 8px rgb(0 0 0 / 50%);
+}
+
+/* MENU */
+.header-menu{
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -10,7 +41,10 @@
 .text-texto{
     color: #707070;
 }
-
+.margen-boton-cards{
+    margin-top: .77rem;
+    margin-left: 0.1rem;
+}
 .cards{
     width: 345px;
     height: 120px;
