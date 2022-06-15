@@ -28,3 +28,5 @@ let cards6 = document.querySelector('.cards6');
 boton6.addEventListener('click', element => {
   cards6.classList.toggle('contenido-platillos6')
 }) 
+
+

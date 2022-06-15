@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS\estilos.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Inicio</title>
 </head>
 <body >
@@ -17,8 +18,8 @@
             <div class="col-12 col-md-6 align-self-center ps-3 mb-md-5 p-md-0">
                 <p class="fs-2 text-shadow lh-1">Consectetur adipisicing. <br>
                 <span class="display-1 text-shadow">Lorem, ipsum dolor.</span></p>
-                <div class=" ps-md-5">
-                    <button class="btn btn-md btn-warning shadow border-0" type="">Descúbrenos</button>
+                <div class=" ">
+                    <button class="btn btn-lg btn-warning shadow border-0" type="">Descúbrenos</button>
                 </div>
             </div>
         </div>
@@ -101,8 +102,8 @@
                         </div>
                         <div class="col my-lg-0 my-xxl-5">
                         </div>
-                        <div class="col-12 my-3 mt-md-5">
-                            <img class="img-fluid" src="MEDIA/section-flautas.png" >
+                        <div class="col-12 my-3 mt-md-5 ">
+                            <img class="img-fluid " src="MEDIA/section-flautas.png " >
                         </div>
                     </div>
                 </div>
@@ -131,13 +132,16 @@
     </section>
     
     <!-- SECTION-3 -->
-    <section class="bg-section-3">
-        <div class="cuadro-section-3 shadow">
-            <div class="row position-absolute text-white p-xxl-5 pt-lg-5 p-3 pt-4">
-                <h1 class="display-1 pt-xxl-5 p-lg-0">Lorem, ipsum.</h1>
-                <p class=" pt-xxl-5 pt-lg-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptatem vero inventore corporis eius.</p>
-                <div class="col pt-xxl-5 pt-lg-5">
-                    <a href="" class="btn btn-lg btn-light text-warning fs-2 mt-xxl-5 m-lg-0" type="button">Read More</a>
+    <section class="">
+        <div class="position-relative">
+            <img class="imagen thumbnail" src="media/bg-section-3.jpg" alt="">
+            <div class="cuadro-section-3 shadow">
+                <div class="row text-white p-xxl-5 pt-lg-5 p-3 pt-4">
+                    <h1 class="display-1 pt-xxl-5 p-lg-0">Lorem, ipsum.</h1>
+                    <p class=" pt-xxl-5 pt-lg-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptatem vero inventore corporis eius.</p>
+                    <div class="col pt-xxl-5 pt-lg-5">
+                        <a href="" class="btn btn-lg btn-light text-warning fs-2 mt-xxl-5 m-lg-0" type="button">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,5 +233,12 @@
     
 <script src="JS/bootstrap.bundle.min.js"></script>
 <script src="JS/main.js"></script>    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image);
+</script>
+
 </body>
 </html>
