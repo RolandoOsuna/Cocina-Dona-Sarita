@@ -29,7 +29,7 @@
     <section class="pt-4 pt-md-5">
         <div class="row  justify-content-evenly">
             <!-- CARDS -->
-            <div class="col-12 col-md-5 text-white pb-3 px-3 p-md-0">
+            <div class="col-12 col-md-5 text-white pb-3 px-3 p-md-0" data-aos="fade-right">
               <div class="card shadow bg-card1 border-0 ">
                 <div class="py-1 px-2 py-md-2 px-md-3 ">
                     <p class="card-title  text-shadow">Special title treatment</p>
@@ -39,7 +39,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-md-5 text-white  px-3 p-md-0">
+            <div class="col-12 col-md-5 text-white  px-3 p-md-0" data-aos="fade-left">
               <div class="card shadow bg-card2 border-0">
                 <div class="py-1 px-2 py-md-2 px-md-3">
                     <p class="card-title  text-shadow">Special title treatment</p>
@@ -50,7 +50,7 @@
             </div>
 
             <!-- ICONOS -->
-            <div class="row justify-content-around py-5">
+            <div class="row justify-content-around py-5 ">
                 <div class="col-12 col-md-3 d-md-flex align-self-center text-center text-md-start">
                     <div class="col-12 col-md-4 text-md-end"><img class="img-fluid" src="MEDIA/Cubiertos icono.png" width="100px"></div>
                     <div class="col-12 col-md-1 d-none d-md-block" style="width: 1px; height:95px; background-color: #70707075;"></div>
@@ -103,20 +103,20 @@
                         <div class="col my-lg-0 my-xxl-5">
                         </div>
                         <div class="col-12 my-3 mt-md-5 ">
-                            <img class="img-fluid " src="MEDIA/section-flautas.png " >
+                            <img class="img-fluid " src="MEDIA/section-flautas.png " data-aos="fade-up">
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-4 px-1 align-self-center">
-                    <img class="img-fluid d-none d-md-block" src="MEDIA/section-enmoladas.png">
+                    <img class="img-fluid d-none d-md-block" src="MEDIA/section-enmoladas.png" data-aos="fade-zoom-in">
                     <img class="img-fluid d-block d-md-none" src="MEDIA/Section-enmoladas-responsive.png">
                 </div>
 
                 <div class="col-12 col-lg-4 px-1 mt-3">
                     <div class="row d-flex align-items-start flex-column">
                         <div class="col-12 mb-5">
-                            <img class="img-fluid" src="MEDIA/section-chimichanga.png" >
+                            <img class="img-fluid" src="MEDIA/section-chimichanga.png" data-aos="fade-down">
                         </div>
                         <div class="col my-lg-0 my-xxl-5 ">
                         </div>
@@ -134,7 +134,7 @@
     <!-- SECTION-3 -->
     <section class="">
         <div class="position-relative">
-            <img class="imagen thumbnail" src="media/bg-section-3.jpg" alt="">
+            <img class="imagen thumbnail" src="MEDIA/bg-section-3.jpg" >
             <div class="cuadro-section-3 shadow">
                 <div class="row text-white p-xxl-5 pt-lg-5 p-3 pt-4">
                     <h1 class="display-1 pt-xxl-5 p-lg-0">Lorem, ipsum.</h1>
@@ -161,9 +161,9 @@
                 </div>
             </div>
             <div class="row justify-content-around mb-5">
-                <div class="col-12 col-md-4 px-2"><img class="img-fluid" src="MEDIA/Chilaquiles verdes.png"></div>
-                <div class="col-12 col-md-4 px-2 py-3 py-md-0"><img class="img-fluid" src="MEDIA/Verduras.png"></div>
-                <div class="col-12 col-md-4 px-2"><img class="img-fluid" src="MEDIA/pescado.png"></div>
+                <div class="col-12 col-md-4 px-2"><img class="img-fluid" src="MEDIA/Chilaquiles verdes.png" data-aos="fade-up-right"></div>
+                <div class="col-12 col-md-4 px-2 py-3 py-md-0"><img class="img-fluid" src="MEDIA/Verduras.png"data-aos="fade-up"></div>
+                <div class="col-12 col-md-4 px-2"><img class="img-fluid" src="MEDIA/pescado.png"data-aos="fade-up-left"></div>
             </div>
         </div>
     </section>
@@ -233,12 +233,19 @@
     
 <script src="JS/bootstrap.bundle.min.js"></script>
 <script src="JS/main.js"></script>    
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 <script>
     var image = document.getElementsByClassName('thumbnail');
     new simpleParallax(image);
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script>
+    ScrollReveal().reveal('.reveal');
+</script> -->
 
 </body>
 </html>
